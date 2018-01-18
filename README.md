@@ -88,10 +88,10 @@ Testing:
 ## Profile
 
 Routing:
-- [ ] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
-- [ ] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
-- [ ] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user
+- [x] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
+- [x] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
+- [x] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user
 
 Users can:
-- [ ] __10:__ See their username and email
-- [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh. Submitting the form on `/users/<USER ID>/edit` page asynchronously updates the profile information. The user remains on the edit page `/users/<USER ID>/edit`.
+- [x] __10:__ See their username and email
+- [x] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh. Submitting the form on `/users/<USER ID>/edit` page asynchronously updates the profile information. The user remains on the edit page `/users/<USER ID>/edit`.
