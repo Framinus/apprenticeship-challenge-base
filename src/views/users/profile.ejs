@@ -1,5 +1,12 @@
 <% include ../partials/header %>
 
-<!-- insert code here -->
+<h1>Profile Page</h1>
+
+<p>Name: <%= name %></p>
+<p>Email:<%= email %> </p>
+
+<form action="/users/:id" method="POST">
+  <button type="submit">Edit</button>
+</form>
 
 <% include ../partials/footer %>
