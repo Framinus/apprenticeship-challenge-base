@@ -56,42 +56,42 @@ Each requirement is assigned a point value. A fully complete requirement will ea
 ## Sign Up
 
 Routing:
-- [ ] __20:__ Navigating to `/sign-up` loads the sign up page.
+- [x] __20:__ Navigating to `/sign-up` loads the sign up page.
 
 Users can:
-- [ ] __40:__ Sign up for an account with a name, email and password.
-- [ ] __10:__ Be redirected to the home page (`/`) after signing up.
+- [x] __40:__ Sign up for an account with a name, email and password.
+- [x] __10:__ Be redirected to the home page (`/`) after signing up.
 
 Users CANNOT:
-- [ ] __10:__ Sign up without a name value
-- [ ] __10:__ Sign up without an email address value
-- [ ] __30:__ Sign up without an email that is already in use.
+- [x] __10:__ Sign up without a name value
+- [x] __10:__ Sign up without an email address value
+- [x] __30:__ Sign up with an email that is already in use.
 
 ## Sign in
 
 Routing:
-- [ ] __20:__ Navigating to `/sign-in` loads the sign in page.
+- [x] __20:__ Navigating to `/sign-in` loads the sign in page.
 
 Users can:
-- [ ] __20:__ Sign in to an existing account with an email address and password.
-- [ ] __10:__ Be redirected to the home page (`/`) after signing in.
+- [x] __20:__ Sign in to an existing account with an email address and password.
+- [x] __10:__ Be redirected to the home page (`/`) after signing in.
 
 Users CANNOT:
 
-- [ ] __30:__ Sign in with an invalid email address and password combination.
+- [x] __30:__ Sign in with an invalid email address and password combination.
 
 ## Testing
 
 Testing:
-- [ ] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database
+- [x] __30:__ Write a test for the `signUp` action using Mocha. This test should check that calling the `signUp` function adds a row in the database
 
 ## Profile
 
 Routing:
-- [ ] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
-- [ ] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
+- [x] __20:__ Navigating to `/users/<USER ID>` loads the profile page. The profile page has a button `Edit` which when clicked, navigates to the edit profile page.
+- [x] __20:__ Navigating to `/users/<USER ID>/edit` loads the edit profile page.
 - [ ] __20:__ Sending a PUT request to `/users/<USER ID>` updates the profile of the user
 
 Users can:
-- [ ] __10:__ See their username and email
-- [ ] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh. Submitting the form on `/users/<USER ID>/edit` page asynchronously updates the profile information. The user remains on the edit page `/users/<USER ID>/edit`.
+- [x] __10:__ See their username and email
+- [x] __30:__ Edit their username and email using AJAX. Updating their profile should NOT require a page refresh. Submitting the form on `/users/<USER ID>/edit` page asynchronously updates the profile information. The user remains on the edit page `/users/<USER ID>/edit`.

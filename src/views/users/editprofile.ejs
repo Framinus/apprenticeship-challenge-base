@@ -1,0 +1,16 @@
+<% include ../partials/header %>
+
+<h1>Edit Profile</h1>
+
+<form class="edit-profile-form" action="/users/<%= user %>" method="post">
+  <input class="edit-name-field" type="text" name="name" required placeholder="<%= name %>">
+  <input class="edit-email-field" type="text" name="email" required placeholder="<%= email %>">
+  <input class="user" type="hidden" name="" value="<%= user %> ">
+  <button id="edit-profile-btn" type="submit">Submit Changes</button>
+</form>
+<div class="status-message">
+
+</div>
+
+
+<% include ../partials/footer %>
