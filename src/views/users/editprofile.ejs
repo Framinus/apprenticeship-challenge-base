@@ -1,0 +1,12 @@
+<% include ../partials/header %>
+
+<h1>User Edit Profile</h1>
+
+<form class="edit-profile-form" action="/users/<%= userProfile.id %>" method="put">
+  <input class="form-field-name" type="text" name="name" value="<%= userProfile.name %>">
+  <input class="form-field-email" type="text" name="email" value="<%= userProfile.email %>">
+  <button type="submit" id="edit-profile-btn" data-id="<%= userProfile.id %>">Edit Profile</button>
+</form>
+
+
+<% include ../partials/footer %>
